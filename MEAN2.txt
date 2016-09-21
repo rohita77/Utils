@@ -1,0 +1,282 @@
+
+Reading
+	PowerBI
+	Agile
+	Microservice and API
+	Mongo DB
+	Javascript
+	Angular
+	Cloud Security. API Security
+	Time Series DB,Scanners, and Alerts
+
+	App to manage positions. Mail Sent to Brian
+	power Power BI
+	
+Alerts App
+	5D Scan
+	Squeeze, 
+	High IV
+	Trigger Alert - Fb/Twitter/SMS/Email
+	Facebook Login
+	Publish Query to Office 366/Power BI
+	Volatility Events
+	India Vix alerts
+	%Move > 1SD Historic Move
+		ExpiryMonth
+		Calendar Month
+		Rolling 30 Day period
+
+Power Pivot
+	Complete Power Pivot MF pivot model for MF rebalancing
+	PP model of HV of INFY
+
+
+Alerts App
+	Historic Standard deviation:
+	Projected Move: 90th Percentile of 3 months - move in last 2 months,
+		
+	% Move in X
+	% from KPI - 52 Wk Hi, Moving average.	
+
+
+	Based on WatchList
+	U/L, price, OI,Volume, High, Low, Open Close, PCR
+	OI,Volume, Last, Bid, Ask, Delta, Theta, Vega,
+	
+	Target Prices, Entry point, Exit Point
+
+	Bol Band, RSI, MACD, Higher Low and Higher highs
+	ATR, ADX, Fast K, Schocastic
+
+	Pressure points
+	Swing Zones- Fibonacci Retracements
+
+	FX Alerts - US vs EUR
+	Calendar - Expirations, Option, Futures, 
+	
+	Impact of Volatility due to Facebook and Twitter chatter.
+
+
+NIFTy Back Tesing App 
+	Sites doing NIFTY backtesting/charts
+	10 Years Data covering Bulls and Bears
+
+	Site from where to get NIFTY data
+	Data points: Price, Volume,	
+
+	X Percentile move in Y months
+		90th Percentile move in 1,3 month - 
+		90th Pecentille monthly,quaterly Beta
+	Use Expiry Day
+	VIX vs NIFTY
+	Average days VIX stays high
+	X Percentile move in Y months with 
+		various VIX opening Range		
+		90th Percentile VIX for the month		
+
+	Economic Events
+	Earnings.
+
+
+Nifty option Selector
+	power pivot model for equity master recommendations
+
+
+
+Node.JS
+	View -- Hogan(html), Jade.
+
+	Config -- separate folder. config.js that check the environment variable to load DEV.JSON or Prod.JSON
+
+	Modules structure
+
+	Pending
+		Session
+		Event Handling
+		Local Storage
+		HTML5.
+		http://www.html5rocks.com/
+		git
+		JSON
+		Routing Best Practices for REST
+		Chaining in javascript. Chain functions elegantly.
+		using .call() and .apply when making the call to the call back function.
+		Promises: Pending, Settled, Resolved, Rejected
+
+		checking if an objects is instantiated.
+		install modules globally...
+		good javascript editor
+		Best template engine for express
+		JSON, Javascript DAO objects, mappers
+		Exception handling in node as exception can cause thread to abort and hence all connections to fail
+		const, let, use strict
+		Global Objects in Node.js
+
+
+UDEMY trainings
+	Scout
+		MVC
+		Dependancy Injection
+		Logging Frameworks
+
+		Advance Javascript
+		Reflection
+		Interface
+		Postmaster
+		JSON vs SOAP
+		Singleton
+		Observer Pattern
+		Delegate
+		Model Factory
+	
+		Unit Testing Tools
+		Automated Testing
+		CI tools
+		CD Tools - Deployment
+
+		Scrum Planning
+		
+
+
+	Done
+
+
+	Pending
+		Basic Javascript (Plural
+		Citi Agile videos
+
+	Deferred
+		Working with MongoDB 
+		Big Data and Apache Hadoop for Developers - Fundamentals 
+
+	Front End
+
+		Creating Responsive Web Design 
+		Advanced Node.JS
+		facebook
+
+		Advanced JavaScript: A Course for Serious Programmers 
+		AngularJS: The Easy Way to Code Web Apps 
+	
+		The Complete Web Developer Course - Build 14 Websites 
+
+	AWS Certified Solutions Architect - Associate 2015 
+	AWS Certified Developer - Associate 2015 
+
+	Excel
+		Microsoft Excel Mastery: Interactive Excel Dashboards 
+		Eye-catching presentations using Microsoft PowerPoint 2010 
+		Excel Charts - Excel Charts and Graphs Basic Training 
+		Microsoft Excel 2013 Beginners/Intermediate Training 
+		Manage email, time and contacts using Microsoft Outlook 2010 
+
+	Marketing-->How To Create An Awesome Webinar 	
+	Maerketing-->How to Actively Engage Your Customers 
+
+	Data Science -->Introduction to Data Structures & Algorithms in Java 
+
+	Mobile Application development\
+
+
+
+Other Study
+	Machine Learning: Basics on Statistics
+	
+
+Tardi.js
+	TypeScript
+
+	TimeSeries
+
+		Everything is a time series and works on 'stream' of ticks. 
+		Ticks are from in memory cache or server via Websockets. Hence(due to streams), all commponents are Realtime, Event Driven and concurrent by default.
+
+	HTML5 and node.js - 
+		Same code on client and server. e.g. computed columns in custom grids (samplers for derived time series) and work on same JSON objects
+		Time Series Samplers are there on both Client and Server
+
+
+	Data
+		Market Data is cached in MongoD/Couche DB
+		Derived Data /Time Series are cached on the server in mongodb and inmemory cache on the browser
+
+
+	Client suscribes to time series from Market Data or Time Series Samplers and build its own Time Series Sampler
+
+	Charts, Grids, Widgets run on the browser
+
+	Web Socket connects Server and browser.
+
+
+	Samplers
+		Define computation as sampler - capture ticks from underlying series in a configurable window
+		samplers - SMA, Percentile, Percent Change, shift, realize volatility
+
+		Windows - can be rolling windows, or fixed or take into account only trading hours
+
+		Composite time series with underlying time series ticking at different rates. Hence buffering is required.
+
+		cache based on block of time: all data for that time. e.g. data for a complete day.
+
+
+		live stream slice: multiple worker will bid to update the live stream slice.
+		
+
+	UI is all widgets..
+		widget needs to implement getWidgetConfig and setWidgetConfig methods. Config is used to maintain the state of all widgets in a users dashboard.
+		widgets communicate with each other by brodcasting and handling intents (uncoupled) or interface and bindings e.g. grid to chart
+
+		dashboards: share dashboards with other users, build dashboards from templates.
+
+		summary widgets for alerts
+
+
+
+Holdings
+	Name as per screen.
+
+	Get Latest Quote -- refresh
+	Arrange fields as they are needed.
+
+
+Keep data in json format only as that is how we will work with the data
+Aliases/or Mapping object in Node	
+
+
+
+Node.JS in Citi
+	Node.JS CMP
+	Node-Orion, CitiCloud IDE
+	CitiCloud 2.0 - Apache/Tomcat/Gemfire + DB 
+
+	F/W - Spring, Node.js
+	Service - MongoDB, Rabbit MQ
+
+Anuglar.JS
+	by google
+	ng in all HTML tags
+	Front End framework to build single page applications
+	Bind data to HTML5
+	bootstrap,ngGrid, ngTable, Restangular
+	GIT
+	NGINX
+	CitiWebApplicationToolKit - Twitter Bootstrap
+	MVC - MVVM
+	Mean-Yeoman: yo - Best Practices and tools that help you stay productive
+	Test F/W for Node.js and Angular.js
+
+	Angular.JS --> JSON(Over Rest) --> Node.JS --> MongoDB
+
+
+Power Query
+	JSON, FB, Online Search from Wikipedia Tables
+	Connect to API
+	AutoRefresh
+	Final Result is always a table
+	Automatically creates a script that can be edited
+	
+	Appending Data: Merge queries in existing data sets
+			Remove Duplicates
+	unpivot data to a tabular format
+	Publish Query to Office 366/Power BI
+	GIT Software distribution

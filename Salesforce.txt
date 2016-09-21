@@ -1,0 +1,20 @@
+Salesforce Trailheas / Meetups
+Apex, Force.com, Heroku
+
+Administrator --> Declarative Developer --> Coder
+
+developer.salesformce.com
+	2 User Accoutns + 10 MB
+
+Force.com IDE, Maven, Git
+
+Developer Guide
+
+Trailehead, Trailhead Badges, Allow access
+
+success.salesforce.com --> attach dev org
+
+developers --> communities
+
+salesforce stack exchange
+idea exchange
